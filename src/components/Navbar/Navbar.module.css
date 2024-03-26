@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     box-shadow: 0 0 3px var(--blue);
     z-index: 10;
     transition: 0.3s ease-out;
