@@ -1,0 +1,74 @@
+.container {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+}
+
+.dataImage {
+    border: 1px solid gray;
+}
+
+.dataImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dataInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dataInfoTitle {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.dataInfoBio {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.dataInfoButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.dataInfoButtonsButton {
+    font-size: 30px;
+    color: var(--blue);
+}
+
+.dataInfoButtonsButton:hover {
+    cursor: pointer;
+    color: var(--gold);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .data {
+        display: flex;
+        flex-direction: column;
+    }
+    .dataImage {
+        height: 300px;
+    }
+    .dataInfo {
+        align-items: center;
+    }
+    .dataInfoBio {
+        text-align: center;
+    }
+}
