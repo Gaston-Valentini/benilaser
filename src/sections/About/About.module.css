@@ -31,6 +31,7 @@
 .dataInfoTitle {
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
     color: var(--blue);
 }
 
@@ -56,7 +57,7 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px;
+        padding: 50px 20px;
     }
     .data {
         display: flex;
