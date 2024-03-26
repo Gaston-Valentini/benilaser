@@ -31,7 +31,6 @@
 .dataInfoTitle {
     font-size: 30px;
     font-weight: 800;
-    text-align: center;
     color: var(--blue);
 }
 
@@ -68,6 +67,9 @@
     }
     .dataInfo {
         align-items: center;
+    }
+    .dataInfoTitle {
+        text-align: center;
     }
     .dataInfoBio {
         text-align: center;
