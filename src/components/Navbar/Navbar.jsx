@@ -1,4 +1,5 @@
 import style from "./Navbar.module.css";
+import logo from "../../assets/images/logo.png";
 import { LiaBarsSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
@@ -14,7 +15,7 @@ export default function Navbar() {
     return (
         <nav className={style.container}>
             <div className={style.logo}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nissan_logo.png/2392px-Nissan_logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
             </div>
             <div className={style.bars}>
                 <LiaBarsSolid className={style.barsIcon} onClick={onBars} />
