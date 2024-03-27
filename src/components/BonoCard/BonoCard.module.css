@@ -1,0 +1,72 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 5px var(--blue);
+    border-radius: 10px;
+}
+
+.image {
+    height: 400px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.size {
+    font-size: 12px;
+    color: var(--blue);
+}
+
+.price,
+.totalPrice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--blue);
+}
+
+.priceOldPrice,
+.totalOldPrice {
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: line-through;
+    color: var(--grey);
+}
+
+.pricePrice,
+.totalPrice {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.text {
+    color: var(--grey);
+}
+
+hr {
+    border: 1px solid var(--blue);
+}
+
+.bono {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.includes {
+    color: var(--blue);
+}

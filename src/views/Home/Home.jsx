@@ -4,6 +4,7 @@ import About from "../../sections/About/About";
 import Hook from "../../sections/Hook/Hook";
 import Procedure from "../../sections/Procedure/Procedure";
 import Technology from "../../sections/Technology/Technology";
+import Bonos from "../../sections/Bonos/Bonos";
 import Donations from "../../sections/Donations/Donations";
 import Questions from "../../sections/Questions/Questions";
 
@@ -15,6 +16,7 @@ export default function Home() {
             <Hook />
             <Procedure />
             <Technology />
+            <Bonos />
             <Donations />
             <Questions />
         </section>
