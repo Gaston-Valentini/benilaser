@@ -6,3 +6,12 @@
     --grey: #ccc;
     --overlay: rgba(55, 98, 150, 0.7);
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gold);
+    border-top: 60px solid white;
+}
