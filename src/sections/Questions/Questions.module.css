@@ -1,0 +1,28 @@
+.container {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.text {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.questions {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

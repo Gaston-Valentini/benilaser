@@ -1,0 +1,58 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 5px var(--grey);
+}
+
+.container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--grey);
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questionText {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.questionTextActive {
+    color: var(--gold);
+}
+
+.questionIcon {
+    font-size: 30px;
+    color: var(--blue);
+    transition: transform 0.5s ease;
+}
+
+.questionIconActive {
+    color: var(--gold);
+    transform: rotate(180deg);
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s;
+}
+
+.answerActive {
+    max-height: 1000px;
+}
+
+.answer p {
+    font-weight: 400;
+}
+
+.answer p span {
+    font-weight: 800;
+    color: var(--blue);
+}

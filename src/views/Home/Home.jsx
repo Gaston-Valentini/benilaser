@@ -5,6 +5,7 @@ import Hook from "../../sections/Hook/Hook";
 import Procedure from "../../sections/Procedure/Procedure";
 import Technology from "../../sections/Technology/Technology";
 import Donations from "../../sections/Donations/Donations";
+import Questions from "../../sections/Questions/Questions";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Procedure />
             <Technology />
             <Donations />
+            <Questions />
         </section>
     );
 }
