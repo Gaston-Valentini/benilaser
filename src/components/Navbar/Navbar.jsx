@@ -1,5 +1,5 @@
 import style from "./Navbar.module.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo-black.png";
 import { LiaBarsSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import { useRef, useState } from "react";

@@ -4,6 +4,7 @@ import About from "../../sections/About/About";
 import Hook from "../../sections/Hook/Hook";
 import Procedure from "../../sections/Procedure/Procedure";
 import Technology from "../../sections/Technology/Technology";
+import Donations from "../../sections/Donations/Donations";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <Hook />
             <Procedure />
             <Technology />
+            <Donations />
         </section>
     );
 }

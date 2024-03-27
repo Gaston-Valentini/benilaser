@@ -1,6 +1,6 @@
 import style from "./HomeHeader.module.css";
 import video from "../../assets/videos/home-header.mp4";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo-white.png";
 
 export default function HomeHeader() {
     return (
