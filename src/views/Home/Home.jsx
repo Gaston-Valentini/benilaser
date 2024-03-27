@@ -3,6 +3,7 @@ import HomeHeader from "../../sections/HomeHeader/HomeHeader";
 import About from "../../sections/About/About";
 import Hook from "../../sections/Hook/Hook";
 import Procedure from "../../sections/Procedure/Procedure";
+import Technology from "../../sections/Technology/Technology";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <About />
             <Hook />
             <Procedure />
+            <Technology />
         </section>
     );
 }
