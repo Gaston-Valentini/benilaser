@@ -24,7 +24,7 @@ export default function Navbar() {
                 <Link to="/" className={style.linksLink} onClick={onBars}>
                     INICIO
                 </Link>
-                <Link to="/services" className={style.linksLink} onClick={onBars}>
+                <Link to="/treatments" className={style.linksLink} onClick={onBars}>
                     TRATAMIENTOS
                 </Link>
                 <Link to="/contact" className={style.linksLink} onClick={onBars}>
