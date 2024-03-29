@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import Treatments from "./views/Treatments/Treatments";
+import FrequentlyQuestions from "./views/FrequentlyQuestions/FrequentlyQuestions";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/treatments" element={<Treatments />} />
+                    <Route path="/frequently-questions" element={<FrequentlyQuestions />} />
                 </Routes>
             </div>
         </Router>

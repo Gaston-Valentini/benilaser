@@ -22,13 +22,16 @@ export default function Navbar() {
             </div>
             <div className={`${style.links} ${isLinksActive ? style.linksActive : ""}`} ref={links}>
                 <Link to="/" className={style.linksLink} onClick={onBars}>
-                    INICIO
+                    Inicio
                 </Link>
                 <Link to="/treatments" className={style.linksLink} onClick={onBars}>
-                    TRATAMIENTOS
+                    Tratamientos
+                </Link>
+                <Link to="/frequently-questions" className={style.linksLink} onClick={onBars}>
+                    Preguntas frecuentes
                 </Link>
                 <Link to="/contact" className={style.linksLink} onClick={onBars}>
-                    CONTACTO
+                    Contacto
                 </Link>
             </div>
         </nav>

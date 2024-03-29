@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Hook() {
     return (
         <div className={style.container}>
-            <div className={style.title}>Consulta gratuita</div>
+            <div className={style.title}>Valoración gratuita</div>
             <div className={style.icon}>
                 <hr />
                 <FaRegCalendarCheck />

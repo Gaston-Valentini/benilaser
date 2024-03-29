@@ -43,6 +43,7 @@
 }
 
 .dataDescriptionPar {
+    font-weight: 300;
     text-align: right;
     color: white;
 }

@@ -37,6 +37,7 @@
 
 .linksLink {
     text-decoration: none;
+    font-weight: 800;
     color: var(--blue);
 }
 

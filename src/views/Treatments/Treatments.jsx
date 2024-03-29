@@ -1,6 +1,8 @@
 import style from "./Treatments.module.css";
 import TreatmentsHeader from "../../sections/TreatmentsHeader/TreatmentsHeader";
 import TreatmentCard from "../../components/TreatmentCard/TreatmentCard";
+import Procedure from "../../sections/Procedure/Procedure";
+import Bonos from "../../sections/Bonos/Bonos";
 import tattooRemove from "../../assets/images/tattoo-remove.jpg";
 import micropigmentation from "../../assets/images/micropigmentation.webp";
 import spots from "../../assets/images/spots.jpg";
@@ -40,6 +42,8 @@ export default function Treatments() {
             {treatments.map((card) => (
                 <TreatmentCard key={card.id} id={card.id} image={card.image} title={card.title} description={card.description} />
             ))}
+            <Procedure />
+            <Bonos />
         </section>
     );
 }

@@ -1,5 +1,6 @@
 import style from "./Bonos.module.css";
 import BonoCard from "../../components/BonoCard/BonoCard";
+import { TbDiscountCheck } from "react-icons/tb";
 import imageXS from "../../assets/images/xs.jpg";
 import imageS from "../../assets/images/s.jpg";
 import imageM from "../../assets/images/m.jpg";
@@ -80,6 +81,11 @@ export default function Bonos() {
     return (
         <div className={style.container}>
             <div className={style.title}>Tarifas y precios</div>
+            <div className={style.icon}>
+                <hr />
+                <TbDiscountCheck />
+                <hr />
+            </div>
             <div className={style.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam, rerum modi qui in maiores porro quo voluptates! Autem illo eveniet reprehenderit porro quia. Quidem ea itaque amet in minus.</div>
             <div className={style.cards}>
                 {cards.map((card) => (

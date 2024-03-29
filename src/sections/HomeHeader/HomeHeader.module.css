@@ -1,18 +1,11 @@
 .container {
-    height: calc(100vh - 60px);
-}
-
-.video {
-    position: absolute;
-    width: 100%;
-    height: calc(100% - 60px);
-    object-fit: cover;
-    z-index: -1;
+    background-image: url("../../assets/images/treatments-banner.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .overlay {
-    height: 100%;
-    padding: 0 20px;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,22 +14,41 @@
     background-color: var(--overlay);
 }
 
-.logo {
-    width: 1000px;
-}
-
-.logo img {
-    width: 100%;
-}
-
-.slogan {
-    font-size: 20px;
+.title {
+    font-size: 50px;
+    font-weight: 800;
     text-align: center;
     color: white;
 }
 
+.slogan {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.button:hover {
+    color: var(--blue);
+    background-color: white;
+    transition: 0.3s;
+}
+
 @media (max-width: 576px) {
-    .logo {
-        width: 100%;
+    .overlay {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .slogan {
+        font-size: 16px;
     }
 }

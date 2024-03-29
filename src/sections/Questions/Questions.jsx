@@ -43,8 +43,7 @@ export default function Questions() {
 
     return (
         <section className={style.container}>
-            <div className={style.title}>Preguntas frecuentes</div>
-            <div className={style.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex, adipisci ipsa incidunt itaque dolorum deserunt quisquam earum. Voluptatibus libero excepturi facere sunt exercitationem repellendus eos rerum? Explicabo, maxime ab.</div>
+            <div className={style.title}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores enim dolore. Iusto dolores magnam commodi aut vero blanditiis veniam ipsam tempora harum, nobis at, quia soluta tempore, maxime temporibus.</div>
             <div className={style.questions}>
                 {questions.map((question) => (
                     <QuestionCard key={question.id} question={question.question} answer={question.answer} />

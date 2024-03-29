@@ -9,7 +9,7 @@ export default function About() {
                     <img src="https://www.latevaweb.com/diseno-web/clinica-dental.jpg" alt="profilePhoto" />
                 </div>
                 <div className={style.dataInfo}>
-                    <div className={style.dataInfoTitle}>¿Quiénes somos?</div>
+                    <div className={style.dataInfoTitle}>Nuestra tecnología</div>
                     <div className={style.dataInfoBio}>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores. Lorem ipsum dolor, sit amet consectetur
                         adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores.
