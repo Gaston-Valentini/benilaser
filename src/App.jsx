@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import Treatments from "./views/Treatments/Treatments";
 import FrequentlyQuestions from "./views/FrequentlyQuestions/FrequentlyQuestions";
+import Contact from "./views/Contact/Contact";
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/treatments" element={<Treatments />} />
                     <Route path="/frequently-questions" element={<FrequentlyQuestions />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
         </Router>
