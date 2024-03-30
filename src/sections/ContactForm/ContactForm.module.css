@@ -1,0 +1,87 @@
+.container {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 400;
+}
+
+.form {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: calc(100% - 32px);
+    padding: 15px;
+    border: 1px solid var(--blue);
+    box-shadow: 0 0 1px var(--grey);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    background-color: var(--lightBlue);
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: black;
+}
+
+.formTerms {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formTerms a {
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.formSubmit {
+    width: calc(100% - 2px);
+    font-weight: bold;
+    background-color: var(--blue);
+    color: white;
+}
+
+.formSubmit:hover {
+    cursor: pointer;
+    background-color: #5181bd;
+    border-color: #5181bd;
+}
+
+.formSubmit:disabled {
+    opacity: 0.5;
+}
+
+.formSubmit:disabled:hover {
+    background-color: var(--blue);
+    cursor: not-allowed;
+}
