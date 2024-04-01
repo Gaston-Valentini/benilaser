@@ -5,6 +5,7 @@ import Home from "./views/Home/Home";
 import Treatments from "./views/Treatments/Treatments";
 import FrequentlyQuestions from "./views/FrequentlyQuestions/FrequentlyQuestions";
 import Contact from "./views/Contact/Contact";
+import Whatsapp from "./components/Whatsapp/Whatsapp";
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path="/frequently-questions" element={<FrequentlyQuestions />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
+                <Whatsapp />
             </div>
         </Router>
     );

@@ -39,6 +39,11 @@
     font-style: italic;
 }
 
+.dataInfoBio span {
+    font-weight: 800;
+    color: var(--blue);
+}
+
 .dataInfoButtons {
     display: flex;
     gap: 10px;

@@ -14,6 +14,10 @@
     color: white;
 }
 
+.text span {
+    font-weight: 800;
+}
+
 .icon {
     width: 250px;
     display: flex;

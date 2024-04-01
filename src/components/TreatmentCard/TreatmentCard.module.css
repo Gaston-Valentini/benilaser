@@ -37,15 +37,23 @@
     color: white;
 }
 
-.dataDescription {
+.dataDescription p {
     font-weight: 400;
     font-style: italic;
 }
 
-.dataDescriptionPar {
+.dataDescription p span {
+    font-weight: 800;
+}
+
+.dataDescriptionPar p {
     font-weight: 300;
     text-align: right;
     color: white;
+}
+
+.dataDescriptionPar p span {
+    font-weight: 800;
 }
 
 .image {

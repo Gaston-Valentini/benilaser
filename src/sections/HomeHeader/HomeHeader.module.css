@@ -15,16 +15,23 @@
 }
 
 .title {
+    max-width: 1000px;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
     color: white;
 }
 
-.slogan {
+.subtitle {
     font-size: 20px;
-    font-weight: 300;
     text-align: center;
+    color: white;
+}
+
+.slogan {
+    max-width: 1000px;
+    text-align: center;
+    font-weight: 300;
     color: white;
 }
 
@@ -48,7 +55,7 @@
     .title {
         font-size: 30px;
     }
-    .slogan {
+    .subtitle {
         font-size: 16px;
     }
 }

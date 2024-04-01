@@ -11,8 +11,19 @@ export default function About() {
                 <div className={style.dataInfo}>
                     <div className={style.dataInfoTitle}>Nuestra tecnología</div>
                     <div className={style.dataInfoBio}>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores. Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Repudiandae, aut distinctio quo ipsum itaque vel rerum ut ducimus sapiente esse quaerat ratione assumenda, excepturi libero vero culpa a repellat. Asperiores.
+                        El revolucionario sistema láser, crea un rayo (l) de haz continuo, láser de conmutación Q, pulsos de rayo láser que duran mil millonésimas de segundo.
+                        <br />
+                        <br />
+                        Esta tecnología es especializada en <span>eliminación de tatuajes y micropigmentos</span>, descomponiendo y fragmentando más rápidamente los pigmentos de la piel sin causar daños y en menos sesiones.
+                        <br />
+                        <br />
+                        Contamos con tres longitudes de onda diferentes; 532nm 755nm y 1064nm.
+                        <br />
+                        <br />
+                        Aplicamos técnicas innovadoras combinando las diferentes longitudes.
+                        <br />
+                        <br />
+                        Nuestro láser tiene el poder de eliminar todas las lesiones pigmentadas comunes y un amplio espectro de colores del tatuaje, además, ofrece la posibilidad de tratamientos estéticos.
                     </div>
                     <div className={style.dataInfoButtons}>
                         <a href="https://github.com/Gaston-Valentini" target="_blank" rel="noopener noreferrer">

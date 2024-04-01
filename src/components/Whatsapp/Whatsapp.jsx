@@ -1,0 +1,18 @@
+import style from "./Whatsapp.module.css";
+import { FaWhatsapp } from "react-icons/fa";
+
+export default function Whatsapp() {
+    const onWhatsapp = () => {
+        const phone = "+34613798884";
+        const message = "Hola";
+        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url);
+    };
+
+    return (
+        <section className={style.container}>
+            <FaWhatsapp className={style.icon} onClick={onWhatsapp} />
+        </section>
+    );
+}
