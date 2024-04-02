@@ -17,7 +17,7 @@ export default function Treatments() {
             description: (
                 <p>
                     Ofrecemos tratamientos seguros y efectivos de eliminación de tatuajes mediante tecnología láser. <span>Nuestro equipo profesional aplica técnicas innovadoras</span> combinando diferenteslongitudes de onda. El láser emite pulsos de luz que fragmentan las partículas de tinta, permitiendo que elsistema inmunológico las elimine de forma natural con el tiempo. A lo largo de varias sesiones, el láser irá rompiendo gradualmente la tinta, permitiendo que la piel sane entre cada
-                    sesión. <span>Estudiamos cada caso y aplicamos el tratamiento más conveniente para cada paciente. Nuestro compromiso es proporcionarte el tratamiento óptimo para ti, y obtener losmejores resultados en el menor número de sesiones posible</span>. Nuestros expertos te guiarán a través de todo el proceso. De principio a fin
+                    sesión. <span>Estudiamos cada caso y aplicamos el tratamiento más conveniente para cada paciente. Nuestro compromiso es proporcionarte el tratamiento óptimo para ti, y obtener los mejores resultados en el menor número de sesiones posible</span>. Nuestros expertos te guiarán a través de todo el proceso. De principio a fin
                 </p>
             ),
         },

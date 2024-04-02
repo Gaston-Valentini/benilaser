@@ -1,6 +1,4 @@
 :root {
-    --montserrat: "Montserrat", sans-serif;
-    --fira: "Fira Sans", sans-serif;
     --blue: #376296;
     --lightBlue: #c7e0ff;
     --gold: #e1c340;
@@ -16,4 +14,14 @@
 ::-webkit-scrollbar-thumb {
     background-color: var(--gold);
     border-top: 60px solid white;
+}
+
+.slick-dots li button::before {
+    margin-top: 10px;
+    color: var(--blue);
+}
+
+.slick-arrow {
+    background-color: var(--blue);
+    border-radius: 50%;
 }
