@@ -1,0 +1,136 @@
+.container {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--blue);
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.dataLogo {
+    width: 300px;
+}
+
+.dataLogo img {
+    height: 100%;
+    width: 100%;
+}
+
+.dataInfo {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dataInfoText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+    color: white;
+}
+
+.dataInfoText svg {
+    font-size: 20px;
+}
+
+.dataSocial {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.dataSocial svg {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.dataSocial svg:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--blue);
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.developer {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.developerLink {
+    color: white;
+}
+
+.developerLink a {
+    font-weight: 800;
+    color: white;
+}
+
+.developerIcons {
+    width: max-content;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.developerIconsImage {
+    width: 100px;
+}
+
+.developerIconsImage img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .dataLogo {
+        display: none;
+    }
+    .dataInfo {
+        margin-left: 20px;
+    }
+    .developerIcons {
+        width: 100%;
+    }
+    .developerIconsImage {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .data {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dataInfo {
+        margin: 0;
+    }
+    .dataInfoText {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .dataInfoText svg {
+        display: none;
+    }
+    .dataSocial {
+        margin: 0;
+    }
+}
