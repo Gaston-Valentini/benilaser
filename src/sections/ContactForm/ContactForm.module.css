@@ -18,7 +18,7 @@
     font-weight: 400;
 }
 
-.form {
+.dataForm {
     margin-top: 20px;
     width: 100%;
     max-width: 1000px;
@@ -51,33 +51,33 @@ textarea:focus::placeholder {
     color: black;
 }
 
-.formTerms {
+.dataFormTerms {
     margin: 20px 0;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.formTerms a {
+.dataFormTerms a {
     text-decoration: none;
     font-weight: 800;
     color: var(--blue);
 }
 
-.formSubmit {
+.dataFormSubmit {
     width: calc(100% - 2px);
     font-weight: bold;
     background-color: var(--blue);
     color: white;
 }
 
-.formSubmit:hover {
+.dataFormSubmit:hover {
     cursor: pointer;
     background-color: #5181bd;
     border-color: #5181bd;
 }
 
-.formSubmit:disabled {
+.dataFormSubmit:disabled {
     opacity: 0.5;
 }
 

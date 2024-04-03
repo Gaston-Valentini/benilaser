@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .imagesLogo {
@@ -25,8 +26,7 @@
 
 .imagesLogos {
     max-width: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
 }
 
 .imagesLogosLogo img {

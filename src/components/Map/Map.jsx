@@ -23,12 +23,36 @@ class Map extends Component {
             zoom: 15,
         });
 
-        // Añadir marcador
-        new window.google.maps.Marker({
-            position: { lat: 38.53820922033693, lng: -0.11886422011837101 },
-            map: map,
-            title: "Mi marcador",
-        });
+        // Crear el objeto de Places para buscar el lugar y crear el marcador
+        const service = new window.google.maps.places.PlacesService(map);
+
+        service.getDetails(
+            {
+                placeId: "ChIJBf045nEFYg0RNP5Zl-PEw7s", // Reemplaza 'TU_PLACE_ID' con el ID del lugar que deseas
+            },
+            (place, status) => {
+                if (status === window.google.maps.places.PlacesServiceStatus.OK) {
+                    // Crea un marcador para el lugar
+                    const marker = new window.google.maps.Marker({
+                        position: place.geometry.location,
+                        map: map,
+                        title: place.name,
+                    });
+
+                    const infowindow = new window.google.maps.InfoWindow({
+                        content: `<div><strong>${place.name}</strong><br>${place.formatted_address}<br><a href="${place.url}" target="_blank">Ver en Google Maps</a></div>`,
+                    });
+
+                    marker.addListener("click", () => {
+                        infowindow.open({
+                            anchor: marker,
+                            map,
+                            shouldFocus: false,
+                        });
+                    });
+                }
+            }
+        );
     };
 
     render() {
