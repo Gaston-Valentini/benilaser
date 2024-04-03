@@ -14,9 +14,9 @@ export default function Navbar() {
 
     return (
         <nav className={style.container}>
-            <div className={style.logo}>
+            <Link to="/" className={style.logo}>
                 <img src={logo} alt="logo" />
-            </div>
+            </Link>
             <div className={style.bars}>
                 <LiaBarsSolid className={style.barsIcon} onClick={onBars} />
             </div>

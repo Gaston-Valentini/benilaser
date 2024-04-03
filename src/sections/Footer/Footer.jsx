@@ -8,6 +8,8 @@ import picosure from "../../assets/images/logo-picosure.png";
 import { Link } from "react-router-dom";
 import { FaLocationDot, FaClock, FaPhone, FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaQuestion, FaWpforms } from "react-icons/fa";
+import { GiLaserBlast } from "react-icons/gi";
 
 export default function Footer() {
     const onWhatsapp = () => {
@@ -20,58 +22,101 @@ export default function Footer() {
 
     return (
         <section className={style.container}>
-            <div className={style.data}>
-                <div className={style.dataLogo}>
+            <div className={style.images}>
+                <div className={style.imagesLogo}>
                     <img src={logo} />
                 </div>
-                <div className={style.dataInfo}>
-                    <div className={style.dataInfoText}>
-                        <FaLocationDot />
-                        Avenida de Europa 8, Bajo - local 32b, 03503 Benidorm, Alicante
-                    </div>
-                    <div className={style.dataInfoText}>
-                        <FaClock />
-                        10:00 - 19:00
-                    </div>
-                    <div className={style.dataInfoText}>
-                        <FaPhone />
-                        +34 640 99 66 89
-                    </div>
-                    <div className={style.dataInfoText}>
-                        <MdEmail />
-                        benilasertattoo@gmail.com
-                    </div>
-                </div>
-                <div className={style.dataSocial}>
-                    <Link>
-                        <FaInstagram />
-                    </Link>
-                    <Link>
-                        <FaFacebookF />
-                    </Link>
-                    <FaWhatsapp onClick={onWhatsapp} />
-                </div>
-            </div>
-            <hr />
-            <div className={style.developer}>
-                <div className={style.developerLink}>
-                    Desarrollador - <a href="https://gaston-valentini.github.io/portfolio/">Gastón Valentini</a>
-                </div>
-                <div className={style.developerIcons}>
-                    <div className={style.developerIconsImage}>
+                <div className={style.imagesLogos}>
+                    <div className={style.imagesLogosLogo}>
                         <img src={berkley} />
                     </div>
-                    <div className={style.developerIconsImage}>
+                    <div className={style.imagesLogosLogo}>
                         <img src={ce} />
                     </div>
-                    <div className={style.developerIconsImage}>
+                    <div className={style.imagesLogosLogo}>
                         <img src={copiright} />
                     </div>
-                    <div className={style.developerIconsImage}>
+                    <div className={style.imagesLogosLogo}>
                         <img src={iso9001} />
                     </div>
-                    <div className={style.developerIconsImage}>
+                    <div className={style.imagesLogosLogo}>
                         <img src={picosure} />
+                    </div>
+                </div>
+            </div>
+            <div className={style.data}>
+                <div className={style.dataSection}>
+                    <FaLocationDot />
+                    <div className={style.dataSectionText}>Avenida de Europa 8, Bajo - local 32b, 03503 Benidorm, Alicante</div>
+                </div>
+                <div className={style.dataSection}>
+                    <FaClock />
+                    <div className={style.dataSectionText}>10:00 - 19:00</div>
+                </div>
+                <div className={style.dataSection}>
+                    <FaPhone />
+                    <div className={style.dataSectionText}>+34 640 99 66 89</div>
+                </div>
+                <div className={style.dataSection}>
+                    <MdEmail />
+                    <div className={style.dataSectionText}>benilasertattoo@gmail.com</div>
+                </div>
+            </div>
+            <div className={style.social}>
+                <div className={style.socialSection}>
+                    <div className={style.socialSectionText}>Nuestras redes</div>
+                    <div className={style.socialSectionIcons}>
+                        <div className={style.socialSectionIconsSection}>
+                            <a
+                                href="https://github.com/Gaston-Valentini"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={style.socialSectionIconsSectionIcon}
+                            >
+                                <FaInstagram />
+                            </a>
+                            <div className={style.socialSectionIconsSectionName}>Instagram</div>
+                        </div>
+                        <div className={style.socialSectionIconsSection}>
+                            <a
+                                href="https://www.linkedin.com/in/gastonvalentini/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={style.socialSectionIconsSectionIcon}
+                            >
+                                <FaFacebookF />
+                            </a>
+                            <div className={style.socialSectionIconsSectionName}>Facebook</div>
+                        </div>
+                        <div className={style.socialSectionIconsSection}>
+                            <div className={style.socialSectionIconsSectionIcon} onClick={onWhatsapp}>
+                                <FaWhatsapp />
+                            </div>
+                            <div className={style.socialSectionIconsSectionName}>Whatsapp</div>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.socialSection}>
+                    <div className={style.socialSectionText}>Navegación</div>
+                    <div className={style.socialSectionIcons}>
+                        <div className={style.socialSectionIconsSection}>
+                            <Link to="/treatments" className={style.socialSectionIconsSectionIcon}>
+                                <GiLaserBlast />
+                            </Link>
+                            <div className={style.socialSectionIconsSectionName}>Tratamientos</div>
+                        </div>
+                        <div className={style.socialSectionIconsSection}>
+                            <Link to="frequently-questions" className={style.socialSectionIconsSectionIcon}>
+                                <FaQuestion />
+                            </Link>
+                            <div className={style.socialSectionIconsSectionName}>Preguntas frecuentes</div>
+                        </div>
+                        <div className={style.socialSectionIconsSection}>
+                            <Link to="/contact" className={style.socialSectionIconsSectionIcon}>
+                                <FaWpforms />
+                            </Link>
+                            <div className={style.socialSectionIconsSectionName}>Contacto</div>
+                        </div>
                     </div>
                 </div>
             </div>

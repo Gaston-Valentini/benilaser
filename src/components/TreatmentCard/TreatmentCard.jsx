@@ -5,6 +5,7 @@ export default function TreatmentCard({ id, image, title, description }) {
     const isEven = id % 2 === 0;
     const containerClass = isEven ? `${style.container} ${style.containerPar}` : style.container;
     const contentClass = isEven ? `${style.content} ${style.contentPar}` : style.content;
+    const dataClass = isEven ? `${style.data} ${style.dataPar}` : style.data;
     const dataTitleClass = isEven ? `${style.dataTitle} ${style.dataTitlePar}` : style.dataTitle;
     const dataDescriptionClass = isEven ? `${style.dataDescription} ${style.dataDescriptionPar}` : style.dataDescription;
 
@@ -13,7 +14,7 @@ export default function TreatmentCard({ id, image, title, description }) {
             <div className={contentClass}>
                 {isEven ? (
                     <>
-                        <div className={style.data}>
+                        <div className={dataClass}>
                             <div className={dataTitleClass}>{title}</div>
                             <div className={dataDescriptionClass}>{description}</div>
                         </div>

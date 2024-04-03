@@ -5,20 +5,20 @@
 }
 
 .overlay {
-    padding: 100px 20px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
     background-color: var(--overlay);
 }
 
 .title {
-    max-width: 1000px;
+    max-width: 800px;
     font-size: 50px;
     font-weight: 800;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .slogan {
-    max-width: 1000px;
-    text-align: center;
+    max-width: 800px;
+    text-align: left;
     font-weight: 300;
     color: white;
 }
@@ -51,11 +51,19 @@
 @media (max-width: 576px) {
     .overlay {
         padding: 50px 20px;
+        align-items: center;
     }
     .title {
+        text-align: center;
         font-size: 30px;
     }
     .subtitle {
         font-size: 16px;
+    }
+    .slogan {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
     }
 }

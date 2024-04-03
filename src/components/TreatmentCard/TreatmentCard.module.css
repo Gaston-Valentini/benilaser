@@ -20,9 +20,18 @@
 }
 
 .data {
-    padding: 50px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dataPar {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -44,6 +53,7 @@
 
 .dataDescription p span {
     font-weight: 800;
+    color: var(--blue);
 }
 
 .dataDescriptionPar p {
@@ -54,11 +64,10 @@
 
 .dataDescriptionPar p span {
     font-weight: 800;
+    color: white;
 }
 
 .image {
-    height: 300px;
-    width: 100%;
     box-shadow: 2px 2px 5px black;
 }
 

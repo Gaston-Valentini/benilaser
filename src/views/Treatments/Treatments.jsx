@@ -5,8 +5,6 @@ import Procedure from "../../sections/Procedure/Procedure";
 import Bonos from "../../sections/Bonos/Bonos";
 import tattooRemove from "../../assets/images/tattoo-remove.jpg";
 import micropigmentation from "../../assets/images/micropigmentation.webp";
-import spots from "../../assets/images/spots.jpg";
-import radioterapy from "../../assets/images/radioterapy.jpg";
 
 export default function Treatments() {
     const treatments = [
@@ -16,8 +14,26 @@ export default function Treatments() {
             title: "Eliminación de tatuajes",
             description: (
                 <p>
-                    Ofrecemos tratamientos seguros y efectivos de eliminación de tatuajes mediante tecnología láser. <span>Nuestro equipo profesional aplica técnicas innovadoras</span> combinando diferenteslongitudes de onda. El láser emite pulsos de luz que fragmentan las partículas de tinta, permitiendo que elsistema inmunológico las elimine de forma natural con el tiempo. A lo largo de varias sesiones, el láser irá rompiendo gradualmente la tinta, permitiendo que la piel sane entre cada
-                    sesión. <span>Estudiamos cada caso y aplicamos el tratamiento más conveniente para cada paciente. Nuestro compromiso es proporcionarte el tratamiento óptimo para ti, y obtener los mejores resultados en el menor número de sesiones posible</span>. Nuestros expertos te guiarán a través de todo el proceso. De principio a fin
+                    Ofrecemos tratamientos seguros y efectivos de eliminación de tatuajes mediante tecnología láser.{" "}
+                    <span>Nuestro equipo profesional aplica técnicas innovadoras</span> combinando diferenteslongitudes de onda.
+                    <br />
+                    <br />
+                    El láser emite pulsos de luz que fragmentan las partículas de tinta, permitiendo que elsistema inmunológico
+                    las elimine de forma natural con el tiempo.
+                    <br />
+                    <br />
+                    A lo largo de varias sesiones, el láser irá rompiendo gradualmente la tinta, permitiendo que la piel sane
+                    entre cada sesión.
+                    <br />
+                    <br />
+                    <span>
+                        Estudiamos cada caso y aplicamos el tratamiento más conveniente para cada paciente. Nuestro compromiso es
+                        proporcionarte el tratamiento óptimo para ti, y obtener los mejores resultados en el menor número de
+                        sesiones posible.
+                        <br />
+                        <br />
+                    </span>
+                    Nuestros expertos te guiarán a través de todo el proceso. De principio a fin.
                 </p>
             ),
         },
@@ -27,7 +43,15 @@ export default function Treatments() {
             title: "Micropigmentación",
             description: (
                 <p>
-                    La <span>Micropigmentación</span> o <span>Microblading</span> en cejas y labios se ha vuelto cada vez más común en los últimos años. Si no estas contenta con los resultados obtenidos, o la micropigmentación se ha difuminado, <span>la eliminación con láser es la mejor opción</span>. El proceso de eliminación funciona de manera similar a la eliminación de tatuajes. <span>Ponte en manos de nuestros expertos y te guiaremos a través de todo el proceso</span>.
+                    La <span>Micropigmentación</span> o <span>Microblading</span> en cejas y labios se ha vuelto cada vez más
+                    común en los últimos años. Si no estas contenta con los resultados obtenidos, o la micropigmentación se ha
+                    difuminado, <span>la eliminación con láser es la mejor opción</span>.
+                    <br />
+                    <br />
+                    El proceso de eliminación funciona de manera similar a la eliminación de tatuajes.
+                    <br />
+                    <br />
+                    <span>Ponte en manos de nuestros expertos y te guiaremos a través de todo el proceso</span>.
                 </p>
             ),
         },
