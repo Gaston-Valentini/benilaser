@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Whatsapp() {
     const onWhatsapp = () => {
-        const phone = "+34613798884";
+        const phone = "+34640996689";
         const message = "Hola";
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 

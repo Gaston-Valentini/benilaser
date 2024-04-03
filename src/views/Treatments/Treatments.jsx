@@ -31,18 +31,6 @@ export default function Treatments() {
                 </p>
             ),
         },
-        {
-            id: 3,
-            image: spots,
-            title: "Manchas solares y de la edad",
-            description: <p>Las manchas solares y de edad pueden afectar la apariencia de la piel, pero no tienes por qué vivir con ellas. Nuestros tratamientos especializados están diseñados para reducir la apariencia de manchas solares y de edad, dejando tu piel más uniforme, luminosa y rejuvenecida.</p>,
-        },
-        {
-            id: 4,
-            image: radioterapy,
-            title: "Manchas de radioterapia (GRATIS)",
-            description: <p>Entendemos lo desafiante que puede ser lidiar con las marcas de radioterapia. Nuestros tratamientos están diseñados específicamente para ayudar a mejorar la apariencia de estas marcas, brindándote confort y confianza en tu piel.</p>,
-        },
     ];
 
     return (

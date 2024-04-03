@@ -7,6 +7,7 @@ import iso9001 from "../../assets/images/logo-iso9001.png";
 import picosure from "../../assets/images/logo-picosure.png";
 import { Link } from "react-router-dom";
 import { FaLocationDot, FaClock, FaPhone, FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
     const onWhatsapp = () => {
@@ -26,15 +27,19 @@ export default function Footer() {
                 <div className={style.dataInfo}>
                     <div className={style.dataInfoText}>
                         <FaLocationDot />
-                        Av. de Europa, 8, 32b, 03503 Benidorm, Alicante
+                        Avenida de Europa 8, Bajo - local 32b, 03503 Benidorm, Alicante
                     </div>
                     <div className={style.dataInfoText}>
                         <FaClock />
-                        8:00 - 16:00
+                        10:00 - 19:00
                     </div>
                     <div className={style.dataInfoText}>
                         <FaPhone />
-                        +34 623 271 806
+                        +34 640 99 66 89
+                    </div>
+                    <div className={style.dataInfoText}>
+                        <MdEmail />
+                        benilasertattoo@gmail.com
                     </div>
                 </div>
                 <div className={style.dataSocial}>

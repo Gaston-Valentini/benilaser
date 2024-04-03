@@ -33,6 +33,10 @@
     max-width: 1000px;
 }
 
+.reviews:hover {
+    cursor: pointer;
+}
+
 .reviewsReview {
     padding: 30px 0;
     margin-right: 20px;
