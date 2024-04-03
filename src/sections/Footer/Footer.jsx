@@ -100,19 +100,31 @@ export default function Footer() {
                     <div className={style.socialSectionText}>Navegación</div>
                     <div className={style.socialSectionIcons}>
                         <div className={style.socialSectionIconsSection}>
-                            <Link to="/treatments" className={style.socialSectionIconsSectionIcon}>
+                            <Link
+                                to="/treatments"
+                                className={style.socialSectionIconsSectionIcon}
+                                onClick={() => window.scrollTo(0, 0)}
+                            >
                                 <GiLaserBlast />
                             </Link>
                             <div className={style.socialSectionIconsSectionName}>Tratamientos</div>
                         </div>
                         <div className={style.socialSectionIconsSection}>
-                            <Link to="frequently-questions" className={style.socialSectionIconsSectionIcon}>
+                            <Link
+                                to="frequently-questions"
+                                className={style.socialSectionIconsSectionIcon}
+                                onClick={() => window.scrollTo(0, 0)}
+                            >
                                 <FaQuestion />
                             </Link>
                             <div className={style.socialSectionIconsSectionName}>Preguntas frecuentes</div>
                         </div>
                         <div className={style.socialSectionIconsSection}>
-                            <Link to="/contact" className={style.socialSectionIconsSectionIcon}>
+                            <Link
+                                to="/contact"
+                                className={style.socialSectionIconsSectionIcon}
+                                onClick={() => window.scrollTo(0, 0)}
+                            >
                                 <FaWpforms />
                             </Link>
                             <div className={style.socialSectionIconsSectionName}>Contacto</div>

@@ -10,7 +10,7 @@ import Whatsapp from "./components/Whatsapp/Whatsapp";
 
 export default function App() {
     return (
-        <Router>
+        <Router anchorScrolling={true}>
             <div className={style.app}>
                 <Navbar />
                 <Routes>

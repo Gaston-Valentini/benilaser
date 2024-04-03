@@ -9,6 +9,7 @@ export default function Navbar() {
     const links = useRef(null);
 
     const onBars = () => {
+        window.scrollTo(0, 0);
         setIsLinksActive(!isLinksActive);
     };
 
