@@ -1,19 +1,12 @@
 import style from "./BonoCard.module.css";
 
-export default function BonoCard({ image, name, size, area, oldPrice, price, text, totalOldPrice, totalPrice }) {
+export default function BonoCard({ image, name, oldPrice, price, text, totalOldPrice, totalPrice }) {
     return (
         <div className={style.container}>
             <div className={style.image}>
                 <img src={image} />
             </div>
             <div className={style.name}>{name}</div>
-            {name !== "XXL" ? (
-                <div className={style.size}>
-                    Hasta {size}cm {area}
-                </div>
-            ) : (
-                <div className={style.size}>Más de 100cm²</div>
-            )}
             {name !== "XXL" ? (
                 <div className={style.price}>
                     <div className={style.priceOldPrice}>{oldPrice}€</div>

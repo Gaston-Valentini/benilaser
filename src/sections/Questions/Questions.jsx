@@ -2,6 +2,14 @@ import style from "./Questions.module.css";
 import QuestionCard from "../../components/QuestionCard/QuestionCard";
 
 export default function Questions() {
+    const onWhatsapp = () => {
+        const phone = "+34640996689";
+        const message = "!Hola! Me gustaría recibir más información, mi nombre es: ";
+        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url);
+    };
+
     const questions = [
         {
             id: 1,
@@ -60,11 +68,14 @@ export default function Questions() {
 
     return (
         <section className={style.container}>
-            <div className={style.title}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores enim dolore. Iusto dolores magnam commodi aut vero blanditiis veniam ipsam tempora harum, nobis at, quia soluta tempore, maxime temporibus.</div>
+            <div className={style.text}>A continuación presentamos las preguntas más frecuentes de nuestros clientes</div>
             <div className={style.questions}>
                 {questions.map((question) => (
                     <QuestionCard key={question.id} question={question.question} answer={question.answer} />
                 ))}
+            </div>
+            <div className={style.contact} onClick={onWhatsapp}>
+                ¿QUIERES CONSULTARNOS ALGO?
             </div>
         </section>
     );

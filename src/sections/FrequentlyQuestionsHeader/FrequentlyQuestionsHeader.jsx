@@ -5,7 +5,7 @@ export default function FrequentlyQuestionsHeader() {
         <section className={style.container}>
             <div className={style.overlay}>
                 <div className={style.title}>Preguntas frecuentes</div>
-                <div className={style.subtitle}>Conoce nuestra amplia gama de servicios</div>
+                <div className={style.subtitle}>Resolvemos cualquiera de tus dudas</div>
             </div>
         </section>
     );

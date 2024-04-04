@@ -1,10 +1,17 @@
 .container {
     padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 3px var(--blue);
+}
+
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 50px;
-    box-shadow: 0 0 3px var(--blue);
 }
 
 .images {
@@ -103,8 +110,26 @@
     color: var(--blue);
 }
 
+hr {
+    width: 100%;
+}
+
+.developer {
+    color: var(--blue);
+}
+
+.developer a {
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.developer a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 991px) {
-    .container {
+    .content {
         grid-template-columns: 1fr;
     }
     .data {

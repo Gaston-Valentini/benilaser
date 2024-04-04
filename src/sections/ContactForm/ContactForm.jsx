@@ -28,42 +28,33 @@ export default function ContactForm() {
 
     return (
         <section className={style.container}>
-            <div className={style.title}>Escríbenos ahora</div>
-            <div className={style.subtitle}>Rellena el formulario de contacto</div>
             <div className={style.data}>
+                <div className={style.dataTitle}>Escríbenos ahora</div>
+                <div className={style.dataSubtitle}>Rellena el formulario de contacto</div>
                 <form className={style.dataForm} onSubmit={handleSubmit}>
                     <input name="name" type="text" placeholder="Nombre..." onChange={(e) => handleInput(e)} />
                     <input name="email" type="email" placeholder="Correo..." onChange={(e) => handleInput(e)} />
-                    <PhoneInput
-                        name="phone"
-                        style={{ gap: "5px" }}
-                        placeholder="Teléfono..."
-                        onChange={(value) => setForm((prevState) => ({ ...prevState, phone: value || "" }))}
-                    />
+                    <PhoneInput name="phone" style={{ gap: "5px" }} placeholder="Teléfono..." onChange={(value) => setForm((prevState) => ({ ...prevState, phone: value || "" }))} />
                     <textarea name="message" placeholder="Escribe tu mensaje..." onChange={(e) => handleInput(e)} />
                     <div className={style.dataFormTerms}>
-                        <Switch
-                            onChange={() => setTerms(!terms)}
-                            checked={terms}
-                            offColor="#d3d3d3"
-                            onColor="#376296"
-                            height={20}
-                            width={40}
-                            handleDiameter={18}
-                            onHandleColor="#fff"
-                        />
+                        <Switch onChange={() => setTerms(!terms)} checked={terms} offColor="#d3d3d3" onColor="#376296" height={20} width={40} handleDiameter={18} onHandleColor="#fff" />
                         <div className={style.formTermsText}>
                             He leído y acepto los <Link to="/terms">Términos y Condiciones de Usuario</Link>
                         </div>
                     </div>
-                    <input
-                        className={style.dataFormSubmit}
-                        type="submit"
-                        value="Enviar"
-                        disabled={!terms || Object.values(form).some((value) => value === "")}
-                    />
+                    <input className={style.dataFormSubmit} type="submit" value="Enviar" disabled={!terms || Object.values(form).some((value) => value === "")} />
                 </form>
-                <div className={style.values}></div>
+            </div>
+            <div className={style.values}>
+                <div className={style.valuesTitle}>NUESTROS VALORES NOS REPRESENTAN</div>
+                <ul className={style.valuesList}>
+                    <li className={style.valuesListItem}>ESTAMOS PRESENTES EN TODAS LAS ETAPAS DE NUESTROS SERVICIOS</li>
+                    <li className={style.valuesListItem}>SOMOS APASIONADOS DE LA SALUD Y LA ESTÉTICA</li>
+                    <li className={style.valuesListItem}>CUPLIMOS OBJETIVOS Y RESULTADOS</li>
+                    <li className={style.valuesListItem}>CONTAMOS CON EQUIPO DE EXPERTOS CAPACITADOS Y PROFESIONALES</li>
+                    <li className={style.valuesListItem}>GARANTIZAMOS LA MAYOR PRIVACIDAD Y SEGURIDAD</li>
+                    <li className={style.valuesListItem}>TRABAJAMOS EN UN ESPACIO HIGIÉNICO Y TRANQUILO</li>
+                </ul>
             </div>
         </section>
     );
