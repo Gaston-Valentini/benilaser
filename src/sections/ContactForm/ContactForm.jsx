@@ -9,6 +9,7 @@ export default function ContactForm() {
     const [form, setForm] = useState({
         name: "",
         email: "",
+        treatment: "",
         phone: "",
         message: "",
     });
@@ -34,6 +35,16 @@ export default function ContactForm() {
                 <form className={style.dataForm} onSubmit={handleSubmit}>
                     <input name="name" type="text" placeholder="Nombre..." onChange={(e) => handleInput(e)} />
                     <input name="email" type="email" placeholder="Correo..." onChange={(e) => handleInput(e)} />
+                    <select name="treatment" onChange={(e) => handleInput(e)}>
+                        <option disabled selected hidden>
+                            Seleccione tratamiento
+                        </option>
+                        <option>Eliminación de tatuaje</option>
+                        <option>Eliminación de micropigmentación</option>
+                        <option>Eliminación de manchas solares</option>
+                        <option>Eliminación de manchas de la edad</option>
+                        <option>Eliminación de marcas de radioterapia</option>
+                    </select>
                     <PhoneInput name="phone" style={{ gap: "5px" }} placeholder="Teléfono..." onChange={(value) => setForm((prevState) => ({ ...prevState, phone: value || "" }))} />
                     <textarea name="message" placeholder="Escribe tu mensaje..." onChange={(e) => handleInput(e)} />
                     <div className={style.dataFormTerms}>

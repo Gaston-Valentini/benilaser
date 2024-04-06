@@ -46,14 +46,29 @@ textarea {
     height: 130px;
 }
 
+select {
+    width: calc(100%);
+    padding: 15px;
+    color: #757575;
+    border: 1px solid var(--blue);
+    box-shadow: 0 0 1px var(--grey);
+    appearance: none;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
     outline: none;
     background-color: var(--lightBlue);
 }
 
 input:focus::placeholder,
-textarea:focus::placeholder {
+textarea:focus::placeholder,
+select:focus {
     color: black;
 }
 
