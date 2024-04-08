@@ -10,7 +10,7 @@ export default function Reviews() {
     const [reviews, setReviews] = useState([]);
 
     const getData = async () => {
-        await fetch("http://localhost:2701/reviews")
+        await fetch("https://benilaser-server.vercel.app/reviews")
             .then((res) => res.json())
             .then((data) => setReviews(data.data));
     };

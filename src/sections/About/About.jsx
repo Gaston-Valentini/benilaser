@@ -1,4 +1,5 @@
 import style from "./About.module.css";
+import image from "../../assets/images/about.jpg";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
         <section className={style.container} id="about">
             <div className={style.data}>
                 <div className={style.dataImage}>
-                    <img src="https://www.latevaweb.com/diseno-web/clinica-dental.jpg" alt="profilePhoto" />
+                    <img src={image} alt="profilePhoto" />
                 </div>
                 <div className={style.dataInfo}>
                     <div className={style.dataInfoTitle}>Nuestra tecnología</div>
@@ -26,10 +27,10 @@ export default function About() {
                         Nuestro láser tiene el poder de eliminar todas las lesiones pigmentadas comunes y un amplio espectro de colores del tatuaje, además, ofrece la posibilidad de tratamientos estéticos.
                     </div>
                     <div className={style.dataInfoButtons}>
-                        <a href="https://github.com/Gaston-Valentini" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/benilaser_tattoo/" target="_blank" rel="noopener noreferrer">
                             <FaInstagram className={style.dataInfoButtonsButton} />
                         </a>
-                        <a href="https://www.linkedin.com/in/gastonvalentini/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/beni.laser/" target="_blank" rel="noopener noreferrer">
                             <FaFacebookF className={style.dataInfoButtonsButton} />
                         </a>
                     </div>

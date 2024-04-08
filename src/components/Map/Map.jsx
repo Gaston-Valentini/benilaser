@@ -23,12 +23,11 @@ class Map extends Component {
             zoom: 15,
         });
 
-        // Crear el objeto de Places para buscar el lugar y crear el marcador
         const service = new window.google.maps.places.PlacesService(map);
 
         service.getDetails(
             {
-                placeId: "ChIJBf045nEFYg0RNP5Zl-PEw7s", // Reemplaza 'TU_PLACE_ID' con el ID del lugar que deseas
+                placeId: "ChIJBf045nEFYg0RNP5Zl-PEw7s",
             },
             (place, status) => {
                 if (status === window.google.maps.places.PlacesServiceStatus.OK) {

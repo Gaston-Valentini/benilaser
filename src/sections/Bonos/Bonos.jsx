@@ -7,6 +7,7 @@ import imageM from "../../assets/images/m.jpg";
 import imageL from "../../assets/images/l.jpg";
 import imageXL from "../../assets/images/xl.jpg";
 import imageXXL from "../../assets/images/xxl.jpg";
+import microblading from "../../assets/images/microblading.jpg";
 
 export default function Bonos() {
     const cards = [
@@ -68,7 +69,7 @@ export default function Bonos() {
         },
         {
             id: 7,
-            image: imageXL,
+            image: microblading,
             name: "Microblading",
             oldPrice: 75,
             price: 65,

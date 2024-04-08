@@ -8,12 +8,12 @@
 .data {
     max-width: 1000px;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
 .dataImage {
-    border: 1px solid gray;
+    box-shadow: 0px 0px 10px var(--grey);
 }
 
 .dataImage img {
@@ -68,7 +68,7 @@
         flex-direction: column;
     }
     .dataImage {
-        height: 300px;
+        height: 400px;
     }
     .dataInfo {
         align-items: center;

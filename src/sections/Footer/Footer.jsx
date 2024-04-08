@@ -115,7 +115,7 @@ export default function Footer() {
             <hr />
             <div className={style.developer}>
                 Desarrollado por -{" "}
-                <a href="https://gaston-valentini.github.io/portfolio/" target="_blank">
+                <a href="https://www.linkedin.com/in/gastonvalentini/" target="_blank">
                     {" "}
                     Gastón Valentini{" "}
                 </a>
