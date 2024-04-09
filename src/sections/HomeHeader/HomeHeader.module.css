@@ -48,7 +48,7 @@
     transition: 0.3s;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .overlay {
         padding: 50px 20px;
         align-items: center;
@@ -58,14 +58,13 @@
         font-size: 20px;
     }
     .subtitle {
-        font-size: 14px;
+        font-size: 16px;
     }
     .slogan {
         text-align: center;
     }
     .button {
         padding: 10px;
-        font-size: 14px;
         text-align: center;
     }
 }

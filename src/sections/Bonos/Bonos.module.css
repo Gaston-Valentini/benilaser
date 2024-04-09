@@ -51,7 +51,8 @@
 }
 
 .cards > :last-child {
-    grid-column: 1 / -1; /* Hace que la última tarjeta ocupe todo el ancho disponible */
+    grid-column: 1 / -1;
+    flex-direction: row;
 }
 
 @media (max-width: 991px) {
@@ -66,5 +67,9 @@
     }
     .cards {
         grid-template-columns: 1fr;
+    }
+    .cards > :last-child {
+        grid-column: 1 / -1;
+        flex-direction: column;
     }
 }

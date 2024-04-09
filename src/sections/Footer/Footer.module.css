@@ -15,28 +15,21 @@
 }
 
 .images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
     gap: 10px;
+}
+
+.imagesLogo {
+    height: 100%;
+    width: 100%;
 }
 
 .imagesLogo img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-}
-
-.imagesLogos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 500px;
-}
-
-.imagesLogosLogo img {
-    height: 100%;
-    width: 100%;
 }
 
 .data {

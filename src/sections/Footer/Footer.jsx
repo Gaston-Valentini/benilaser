@@ -24,33 +24,29 @@ export default function Footer() {
         <section className={style.container}>
             <div className={style.content}>
                 <div className={style.images}>
-                    <div className={style.imagesLogos}>
-                        <div className={style.imagesLogo}>
-                            <img src={logo} />
-                        </div>
-                        <div className={style.imagesLogosLogo}>
-                            <img src={berkley} />
-                        </div>
-                        <div className={style.imagesLogosLogo}>
-                            <img src={picosure} />
-                        </div>
-                        <div className={style.imagesLogosLogo}>
-                            <img src={copiright} />
-                        </div>
-                        <div className={style.imagesLogosLogo}>
-                            <img src={iso9001} />
-                        </div>
-                        <div className={style.imagesLogosLogo}>
-                            <img src={ce} />
-                        </div>
+                    <div className={style.imagesLogo}>
+                        <img src={logo} />
+                    </div>
+                    <div className={style.imagesLogo}>
+                        <img src={berkley} />
+                    </div>
+                    <div className={style.imagesLogo}>
+                        <img src={picosure} />
+                    </div>
+                    <div className={style.imagesLogo}>
+                        <img src={copiright} />
+                    </div>
+                    <div className={style.imagesLogo}>
+                        <img src={iso9001} />
+                    </div>
+                    <div className={style.imagesLogo}>
+                        <img src={ce} />
                     </div>
                 </div>
                 <div className={style.data}>
                     <div className={style.dataSection}>
                         <FaLocationDot />
-                        <div className={style.dataSectionText}>
-                            Avenida de Europa 8, Bajo - local 32b, 03503 Benidorm, Alicante
-                        </div>
+                        <div className={style.dataSectionText}>Avenida de Europa 8, Bajo - local 32b, 03503 Benidorm, Alicante</div>
                     </div>
                     <div className={style.dataSection}>
                         <FaClock />
@@ -70,23 +66,13 @@ export default function Footer() {
                         <div className={style.socialSectionText}>Nuestras redes</div>
                         <div className={style.socialSectionIcons}>
                             <div className={style.socialSectionIconsSection}>
-                                <a
-                                    href="https://www.instagram.com/benilaser_tattoo/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className={style.socialSectionIconsSectionIcon}
-                                >
+                                <a href="https://www.instagram.com/benilaser_tattoo/" target="_blank" rel="noopener noreferrer" className={style.socialSectionIconsSectionIcon}>
                                     <FaInstagram />
                                 </a>
                                 <div className={style.socialSectionIconsSectionName}>Instagram</div>
                             </div>
                             <div className={style.socialSectionIconsSection}>
-                                <a
-                                    href="https://www.facebook.com/beni.laser/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className={style.socialSectionIconsSectionIcon}
-                                >
+                                <a href="https://www.facebook.com/beni.laser/" target="_blank" rel="noopener noreferrer" className={style.socialSectionIconsSectionIcon}>
                                     <FaFacebookF />
                                 </a>
                                 <div className={style.socialSectionIconsSectionName}>Facebook</div>
@@ -103,31 +89,19 @@ export default function Footer() {
                         <div className={style.socialSectionText}>Navegación</div>
                         <div className={style.socialSectionIcons}>
                             <div className={style.socialSectionIconsSection}>
-                                <Link
-                                    to="/treatments"
-                                    className={style.socialSectionIconsSectionIcon}
-                                    onClick={() => window.scrollTo(0, 0)}
-                                >
+                                <Link to="/treatments" className={style.socialSectionIconsSectionIcon} onClick={() => window.scrollTo(0, 0)}>
                                     <GiLaserBlast />
                                 </Link>
                                 <div className={style.socialSectionIconsSectionName}>Tratamientos</div>
                             </div>
                             <div className={style.socialSectionIconsSection}>
-                                <Link
-                                    to="frequently-questions"
-                                    className={style.socialSectionIconsSectionIcon}
-                                    onClick={() => window.scrollTo(0, 0)}
-                                >
+                                <Link to="frequently-questions" className={style.socialSectionIconsSectionIcon} onClick={() => window.scrollTo(0, 0)}>
                                     <FaQuestion />
                                 </Link>
                                 <div className={style.socialSectionIconsSectionName}>Preguntas frecuentes</div>
                             </div>
                             <div className={style.socialSectionIconsSection}>
-                                <Link
-                                    to="/contact"
-                                    className={style.socialSectionIconsSectionIcon}
-                                    onClick={() => window.scrollTo(0, 0)}
-                                >
+                                <Link to="/contact" className={style.socialSectionIconsSectionIcon} onClick={() => window.scrollTo(0, 0)}>
                                     <FaWpforms />
                                 </Link>
                                 <div className={style.socialSectionIconsSectionName}>Contacto</div>
