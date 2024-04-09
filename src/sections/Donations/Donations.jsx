@@ -5,7 +5,7 @@ export default function Donations() {
         <section className={style.container}>
             <div className={style.overlay}>
                 <div className={style.title} style={{ textShadow: "0 0 20px white" }}>
-                    EN BENILASER NOS UNIMOS AL APOYO CONTRA EL CANCER
+                    EN BENILASER NOS UNIMOS AL APOYO CONTRA EL CÁNCER
                 </div>
                 <div className={style.text}>
                     Eliminamos gratuitamente las marcas derivadas del tratamiento con radioterapia.
@@ -16,7 +16,7 @@ export default function Donations() {
                     <br />
                     <br />
                     <span style={{ textDecoration: "underline", fontWeight: "800" }}>
-                        JUNTOS SOMOS MÁS FUERTES QUE CUALQUIER ENFERMEDAD
+                        ¡JUNTOS SOMOS MÁS FUERTES QUE CUALQUIER ENFERMEDAD!
                     </span>
                 </div>
             </div>

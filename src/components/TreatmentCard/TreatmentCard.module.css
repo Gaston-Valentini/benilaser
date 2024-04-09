@@ -95,8 +95,8 @@
     .dataTitlePar {
         text-align: center;
     }
-    .dataDescription,
-    .dataDescriptionPar {
+    .dataDescription p,
+    .dataDescriptionPar p {
         text-align: center;
     }
     .image {

@@ -32,7 +32,7 @@ export default function Hook() {
                 el tratamiento óptimo para ti, y obtener los mejores resultados en el menor número de sesiones posible.
             </div>
             <div className={style.button} onClick={onWhatsapp}>
-                CONTACTANOS
+                VALORACIÓN GRATUITA
             </div>
         </div>
     );

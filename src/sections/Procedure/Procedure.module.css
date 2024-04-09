@@ -12,12 +12,6 @@
     color: var(--blue);
 }
 
-.subtitle {
-    max-width: 1000px;
-    font-weight: 400;
-    text-align: center;
-}
-
 .cards {
     margin-top: 20px;
     max-width: 1500px;

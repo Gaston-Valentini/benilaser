@@ -19,6 +19,12 @@
     border-radius: 10px;
 }
 
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .name {
     font-size: 30px;
     font-weight: 800;

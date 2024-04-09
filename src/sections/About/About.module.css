@@ -57,6 +57,7 @@
 .dataInfoButtonsButton:hover {
     cursor: pointer;
     color: var(--gold);
+    transition: 0.3s;
 }
 
 @media (max-width: 768px) {
