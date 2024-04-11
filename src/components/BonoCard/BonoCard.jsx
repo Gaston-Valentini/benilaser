@@ -8,7 +8,7 @@ export default function BonoCard({ image, name, oldPrice, price, totalOldPrice, 
             </div>
             <div className={style.data}>
                 <div className={style.name}>{name}</div>
-                {name !== "XXL" ? (
+                {name !== "XL" ? (
                     <div className={style.price}>
                         <div className={style.priceOldPrice}>{oldPrice}€</div>
                         <div className={style.pricePrice}>{price}€</div>/ sesión
@@ -18,7 +18,7 @@ export default function BonoCard({ image, name, oldPrice, price, totalOldPrice, 
                 )}
                 <hr />
                 <div className={style.bono}>Bono 4 + 1 / {name}</div>
-                {name !== "XXL" ? (
+                {name !== "XL" ? (
                     <div className={style.totalPrice}>
                         <div className={style.totalOldPrice}>{totalOldPrice}€</div>
                         <div className={style.totalPrice}>{totalPrice}€</div>

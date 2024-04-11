@@ -71,3 +71,9 @@ hr {
 .includes {
     color: var(--blue);
 }
+
+@media (max-width: 576px) {
+    .image {
+        height: 300px;
+    }
+}

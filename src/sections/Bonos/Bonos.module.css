@@ -50,11 +50,6 @@
     gap: 20px;
 }
 
-.cards > :last-child {
-    grid-column: 1 / -1;
-    flex-direction: row;
-}
-
 @media (max-width: 991px) {
     .cards {
         grid-template-columns: 1fr 1fr;
@@ -67,9 +62,5 @@
     }
     .cards {
         grid-template-columns: 1fr;
-    }
-    .cards > :last-child {
-        grid-column: 1 / -1;
-        flex-direction: column;
     }
 }
