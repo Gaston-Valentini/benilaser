@@ -70,10 +70,23 @@ export default function Bonos() {
                 <TbDiscountCheck />
                 <hr />
             </div>
-            <div className={style.text}>Te ofrecemos precios flexibles y bonos. El precio de tu sesión lo calcularemos midiendo con nuestras plantillas el tamaño de tatuaje. Hemos creado un amplio abanico de precios para ajustarnos a tus necesidades. PROMOCIÓN 4+1 GRATIS</div>
+            <div className={style.text}>
+                Te ofrecemos precios flexibles y bonos. El precio de tu sesión lo calcularemos midiendo con nuestras plantillas el
+                tamaño de tatuaje. Hemos creado un amplio abanico de precios para ajustarnos a tus necesidades. PROMOCIÓN 4+1
+                GRATIS
+            </div>
             <div className={style.cards}>
                 {cards.map((card) => (
-                    <BonoCard key={card.id} image={card.image} name={card.name} oldPrice={card.oldPrice} price={card.price} text={card.text} totalOldPrice={card.totalOldPrice} totalPrice={card.totalPrice} />
+                    <BonoCard
+                        key={card.id}
+                        image={card.image}
+                        name={card.name}
+                        oldPrice={card.oldPrice}
+                        price={card.price}
+                        text={card.text}
+                        totalOldPrice={card.totalOldPrice}
+                        totalPrice={card.totalPrice}
+                    />
                 ))}
             </div>
         </div>

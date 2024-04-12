@@ -22,6 +22,9 @@
 .data {
     width: 100%;
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dataForm {
@@ -105,6 +108,15 @@ select:focus {
 .dataFormSubmit:disabled:hover {
     background-color: var(--blue);
     cursor: not-allowed;
+}
+
+.dataMessage {
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(33, 174, 17);
 }
 
 .values {

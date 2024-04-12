@@ -10,9 +10,9 @@ export default function Home() {
         <section className={style.container}>
             <HomeHeader />
             <About />
-            <Hook />
-            <Reviews />
             <Donations />
+            <Reviews />
+            <Hook />
         </section>
     );
 }
