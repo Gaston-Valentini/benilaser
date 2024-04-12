@@ -6,7 +6,7 @@ Este proyecto consiste en una landing page diseñada para Benilaser, una clínic
 
 ## Despliegue de la aplicación
 
-Enlace al despliegue
+https://www.benilaser.es
 
 ## Instrucciones de Uso
 
