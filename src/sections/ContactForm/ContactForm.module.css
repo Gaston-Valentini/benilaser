@@ -88,6 +88,10 @@ select:focus {
     color: var(--blue);
 }
 
+.dataFormTerms a:hover {
+    text-decoration: underline;
+}
+
 .dataFormSubmit {
     width: calc(100% - 2px);
     font-weight: bold;

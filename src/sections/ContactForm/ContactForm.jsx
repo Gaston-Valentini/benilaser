@@ -62,34 +62,15 @@ export default function ContactForm() {
                         <option>Eliminación de manchas de la edad</option>
                         <option>Eliminación de marcas de radioterapia</option>
                     </select>
-                    <PhoneInput
-                        name="user_phone"
-                        style={{ gap: "5px" }}
-                        placeholder="Teléfono..."
-                        onChange={(value) => setForm((prevState) => ({ ...prevState, user_phone: value || "" }))}
-                    />
+                    <PhoneInput name="user_phone" style={{ gap: "5px" }} placeholder="Teléfono..." onChange={(value) => setForm((prevState) => ({ ...prevState, user_phone: value || "" }))} />
                     <textarea name="message" placeholder="Escribe tu mensaje..." onChange={(e) => handleInput(e)} />
                     <div className={style.dataFormTerms}>
-                        <Switch
-                            onChange={() => setTerms(!terms)}
-                            checked={terms}
-                            offColor="#d3d3d3"
-                            onColor="#376296"
-                            height={20}
-                            width={40}
-                            handleDiameter={18}
-                            onHandleColor="#fff"
-                        />
-                        <div className={style.formTermsText}>
+                        <Switch onChange={() => setTerms(!terms)} checked={terms} offColor="#d3d3d3" onColor="#376296" height={20} width={40} handleDiameter={18} onHandleColor="#fff" />
+                        <div>
                             He leído y acepto los <Link to="/terms">Términos y Condiciones de Usuario</Link>
                         </div>
                     </div>
-                    <input
-                        className={style.dataFormSubmit}
-                        type="submit"
-                        value="Enviar"
-                        disabled={!terms || Object.values(form).some((value) => value === "")}
-                    />
+                    <input className={style.dataFormSubmit} type="submit" value="Enviar" disabled={!terms || Object.values(form).some((value) => value === "")} />
                 </form>
                 <div className={style.dataMessage}>{confirmMessage}</div>
             </div>
