@@ -6,7 +6,7 @@ import imageS from "../../assets/images/s.jpg";
 import imageM from "../../assets/images/m.jpg";
 import imageL from "../../assets/images/l.jpg";
 import imageXL from "../../assets/images/xl.jpg";
-import microblading from "../../assets/images/microblading.jpg";
+import microblading from "../../assets/images/microblading-remove.png";
 
 export default function Bonos() {
     const cards = [

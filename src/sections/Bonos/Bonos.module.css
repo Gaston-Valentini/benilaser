@@ -5,14 +5,14 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: var(--blue);
+    background-color: white;
 }
 
 .title {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    color: white;
+    color: var(--blue);
 }
 
 .icon {
@@ -38,8 +38,7 @@
 .text {
     max-width: 1000px;
     text-align: center;
-    font-weight: 300;
-    color: white;
+    font-weight: 400;
 }
 
 .cards {

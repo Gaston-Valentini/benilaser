@@ -5,7 +5,7 @@ export default function TreatmentsHeader() {
         <section className={style.container}>
             <div className={style.overlay}>
                 <div className={style.title}>Tratamientos</div>
-                <div className={style.subtitle}>Conoce nuestra amplia gama de servicios</div>
+                <div className={style.subtitle}>Conoce nuestros servicios</div>
             </div>
         </section>
     );

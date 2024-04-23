@@ -52,6 +52,10 @@
     gap: 10px;
 }
 
+.reviewsReviewAuthorPhoto {
+    filter: blur(3px) grayscale(50%);
+}
+
 .reviewsReviewAuthorName {
     font-size: 20px;
     font-weight: 800;
