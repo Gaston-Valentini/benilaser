@@ -29,7 +29,7 @@ export default function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm("service_p2zq3u5", "template_qaaaq9t", formRef.current, "dVCKhY-399cRe2eh3").then(
+        emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, formRef.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY).then(
             (result) => {
                 console.log(result);
                 setConfirmMessage("Tu mensaje se ha enviado correctamente, nos comunicaremos contigo lo antes posible.");

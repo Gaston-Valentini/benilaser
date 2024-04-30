@@ -5,7 +5,7 @@ class Map extends Component {
         if (!window.google) {
             const script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAmqns69u9M576urM4bj05Pfj-eK-8txU0&callback=initMap&libraries=places`;
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${import.meta.env.VITE_GOOGLE_API_KEY}&callback=initMap&libraries=places`;
             script.async = true;
             script.defer = true;
             document.head.appendChild(script);
@@ -27,11 +27,10 @@ class Map extends Component {
 
         service.getDetails(
             {
-                placeId: "ChIJBf045nEFYg0RNP5Zl-PEw7s",
+                placeId: import.meta.env.VITE_GOOGLE_PLACE_ID,
             },
             (place, status) => {
                 if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-                    // Crea un marcador para el lugar
                     const marker = new window.google.maps.Marker({
                         position: place.geometry.location,
                         map: map,
