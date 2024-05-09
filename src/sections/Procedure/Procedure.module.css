@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: calc(100% - 40px);
     padding: 100px 20px;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
 }
 
 .title {
+    text-align: center;
     font-size: 30px;
     font-weight: 800;
     color: white;

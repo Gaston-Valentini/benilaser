@@ -105,4 +105,7 @@
     .image {
         box-shadow: none;
     }
+    .image img {
+        border-radius: 0px;
+    }
 }
