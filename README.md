@@ -1,5 +1,5 @@
 # Benilaser - Sitio web (cliente)
-<img src="./src/assets/images/logo-black.png" width="100%" style="filter: invert(100%)"/>
+<img src="./src/assets/images/logo-black.png" width="100%"/>
 
 ## Tabla de contenidos
 - [Descripción del proyecto y objetivo](#descripción-del-proyecto-y-objetivo)
@@ -9,6 +9,11 @@
 - [Despliegue](#despliegue)
 - [Instrucciones de uso](#instrucciones-de-uso)
 - [Variables de entorno](#variables-de-entorno)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
+- [Agradecimientos](#agradecimientos)
 
 ## Descripción del Proyecto y Objetivo
 
@@ -121,3 +126,5 @@ Para preguntas o colaboraciones, puedes contactarme a través de mis redes:
 ## Agradecimientos
 
 Me gustaría agradecer a todo el equipo de Benilaser por hacer posible esta colaboración.
+
+[Volver al inicio](#benilaser---sitio-web-cliente)
