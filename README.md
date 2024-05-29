@@ -1,3 +1,5 @@
+<img src="./src/assets/images/logo-black.png" width="100%"/>
+
 # Benilaser - Sitio web (cliente)
 
 ## Tabla de contenidos
