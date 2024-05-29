@@ -1,5 +1,5 @@
 # Benilaser - Sitio web (cliente)
-<img src="./src/assets/images/logo-black.png" width="100%"/>
+<img src="./src/assets/images/logo-black.png" width="100%" style="filter: invert(100%)"/>
 
 ## Tabla de contenidos
 - [Descripción del proyecto y objetivo](#descripción-del-proyecto-y-objetivo)
