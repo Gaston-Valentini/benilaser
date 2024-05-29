@@ -63,7 +63,7 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 
 1. Clone este repositorio en tu máquina local con el comando:
     ````bash
-    git clone https://github.com/Gaston-Valentini/benilaser-server.git
+    git clone https://github.com/Gaston-Valentini/benilaser-client.git
     ````
 2. En la carpeta que se generó el proyecto, instale las dependencias con el comando:
     ````bash
@@ -99,6 +99,7 @@ benilaser-client/
 ├── .env.example (Contiene los ejemplos de las variables de entorno)
 ├── .gitignore (Contiene los archivos y carpetas que deben ser ignorados por git)
 ├── index.html (Archivo principal que renderiza la aplicación en el navegador)
+├── LICENSE (Contiene toda la información pertinente a la licencia del proyecto)
 ├── package-lock.json (Asegura la instalación consistente y reproducible de las versione exactas de las dependencias del proyecto)
 ├── package.json (Define las configuraciones básicas, metadatos y dependencias necesarias del proyecto)
 ├── README.md (Contiene una guía detallada del proyecto)
