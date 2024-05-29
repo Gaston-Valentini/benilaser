@@ -1,13 +1,13 @@
 # Benilaser - Sitio web (cliente)
 
 ## Tabla de contenidos
-[Descripción del proyecto y objetivo](#descripción-del-proyecto-y-objetivo)
-[Capturas de pantalla](#capturas-de-pantalla)
-[Características](#características)
-[Tecnologías](#tecnologías)
-[Despliegue](#despliegue)
-[Instrucciones de uso](#instrucciones-de-uso)
-[Variables de entorno](#variables-de-entorno)
+- [Descripción del proyecto y objetivo](#descripción-del-proyecto-y-objetivo)
+- [Capturas de pantalla](#capturas-de-pantalla)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Despliegue](#despliegue)
+- [Instrucciones de uso](#instrucciones-de-uso)
+- [Variables de entorno](#variables-de-entorno)
 
 ## Descripción del Proyecto y Objetivo
 
@@ -15,20 +15,20 @@ Este proyecto consiste en el desarrollo de la página web de [Benilaser](https:/
 
 ## Capturas de pantalla
 
-<div style="padding: 10px; display: flex; flex-direction: column; gap: 10px; background-color: #0D1117; border: 1px solid white">
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-        <div><img src="./public/readme-1.png" alt="Imagen 1" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-2.png" alt="Imagen 2" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-3.png" alt="Imagen 3" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-4.png" alt="Imagen 4" style="width: 100%; height: 100%;"/></div>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-        <div><img src="./public/readme-5.png" alt="Imagen 5" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-6.png" alt="Imagen 6" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-7.png" alt="Imagen 7" style="width: 100%; height: 100%;"/></div>
-        <div><img src="./public/readme-8.png" alt="Imagen 8" style="width: 100%; height: 100%;"/></div>
-    </div>
-</div>
+<p align="center">
+    <img src="./public/readme-1.png" width="49%" />
+    <img src="./public/readme-2.png" width="49%" />
+</p>
+<p align="center">
+    <img src="./public/readme-3.png" width="49%" />
+    <img src="./public/readme-4.png" width="49%" />
+</p>
+<p align="center">
+    <img src="./public/readme-5.png" width="24%" />
+    <img src="./public/readme-6.png" width="24%" />
+    <img src="./public/readme-7.png" width="24%" />
+    <img src="./public/readme-8.png" width="24%" />
+</p>
 
 ## Características
 
@@ -42,14 +42,10 @@ Este proyecto consiste en el desarrollo de la página web de [Benilaser](https:/
 
 ## Tecnologías
 
-- <div style="display: flex; align-items: center; gap: 10px">Vite <img src="./public/vite.png" style="height: 30px"/></div>
-Se utilizó como generador de proyeto y entorno de desarrollo.
-- <div style="display: flex; align-items: center; gap: 10px">React <img src="./public/react.png" style="height: 30px"/></div>
-Se utilizó como freamwork de desarrollo del cliente.
-- <div style="display: flex; align-items: center; gap: 10px">Npm <img src="./public/npm.png" style="height: 30px"/></div>
-Se utilizó para la incorporación de librerías como react-router-dom, react-slick, nodemon, etc.
-- <div style="display: flex; align-items: center; gap: 10px">Vervel <img src="./public/vercel.png" style="height: 30px"/></div>
-Se utilizó para el despligue de la aplicación.
+-  <img src="./public/vite.png" style="height: 15px"/> **Vite:** Se utilizó como generador de proyeto y entorno de desarrollo.
+-  <img src="./public/react.png" style="height: 15px"/> **React:** Se utilizó como freamwork de desarrollo del cliente.
+-  <img src="./public/npm.png" style="height: 15px"/> **Npm:** Se utilizó para la incorporación de librerías como react-router-dom, react-slick, nodemon, etc.
+-  <img src="./public/vercel.png" style="height: 15px"/> **Vercel:** Se utilizó para el despligue de la aplicación.
 
 ## Despliegue
 
