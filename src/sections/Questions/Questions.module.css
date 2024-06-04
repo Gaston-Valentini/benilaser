@@ -33,7 +33,7 @@
     transition: 0.3s;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .container {
         padding: 50px 20px;
     }

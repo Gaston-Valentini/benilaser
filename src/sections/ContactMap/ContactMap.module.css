@@ -1,3 +1,28 @@
 .container {
+    position: relative;
     box-shadow: 0 0 5px var(--grey);
+}
+
+.link {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.link a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: white;
+    background-color: var(--blue);
 }

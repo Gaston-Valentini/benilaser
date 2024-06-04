@@ -73,7 +73,7 @@ hr {
     color: var(--blue);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .image {
         height: 300px;
     }

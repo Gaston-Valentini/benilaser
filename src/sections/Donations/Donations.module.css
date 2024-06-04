@@ -28,7 +28,7 @@
     color: white;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .overlay {
         padding: 50px 20px;
     }

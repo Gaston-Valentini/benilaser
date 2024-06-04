@@ -120,7 +120,7 @@ hr {
     text-decoration: underline;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     .socialSectionText {
         text-align: center;
     }
@@ -132,7 +132,7 @@ hr {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .social {
         grid-template-columns: 1fr;
     }

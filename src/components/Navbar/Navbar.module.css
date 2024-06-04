@@ -46,7 +46,7 @@
     transition: 0.3s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     .container {
         height: 50px;
         width: calc(100vw - 30px);
