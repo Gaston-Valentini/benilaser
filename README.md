@@ -87,7 +87,7 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 ## Variables de entorno
 
 -   VITE_GOOGLE_API_KEY (Clave API del servicio de Google Maps)
--   VITE_MAP_ID="VITE_MAP_ID" (Id del mapa del servicio de Google Maps)
+-   VITE_MAP_ID (Id del mapa del servicio de Google Maps)
 -   VITE_EMAILJS_SERVICE_ID (Id del servicio generado en EmailJS)
 -   VITE_EMAILJS_TEMPLATE_ID (Id de la plantilla que se utilizará para dar forma al correo electrónico de EmailJS)
 -   VITE_EMAILJS_PUBLIC_KEY (Clave pública del usuario de EmailJS)
@@ -98,10 +98,10 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 benilaser-client/
 ├── public/ (Contiene las imágenes del README.md)
 ├── src/
-│   ├── assets/ (Contiene contenido multimedia)
+│   ├── assets/ (Contiene archivos multimedia)
 │   ├── components/ (Contiene componentes reutilizables)
 │   ├── sections/ (Contiene las secciones de la web)
-│   ├── views/ (Contiene las 5 diferentes vistas de la web, donde se mostraran las secciones)
+│   ├── views/ (Contiene las diferentes vistas de la web, donde se mostraran las secciones)
 │   ├── App.jsx (Contiene toda la aplicación que se renderizará en el root de index.html)
 │   ├── App.module.css (Contiene los estilos generales del componente App)
 │   ├── index.css (Contiene las configuraciones generales de estilo y variables globales)
