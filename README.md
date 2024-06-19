@@ -87,7 +87,7 @@ Para correr este servicio de manera local deberá seguir los siguientes pasos:
 ## Variables de entorno
 
 -   VITE_GOOGLE_API_KEY (Clave API del servicio de Google Maps)
--   VITE_MAP_ID (Id del mapa del servicio de Google Maps)
+-   VITE_GOOGLE_MAP_ID (Id del mapa del servicio de Google Maps)
 -   VITE_EMAILJS_SERVICE_ID (Id del servicio generado en EmailJS)
 -   VITE_EMAILJS_TEMPLATE_ID (Id de la plantilla que se utilizará para dar forma al correo electrónico de EmailJS)
 -   VITE_EMAILJS_PUBLIC_KEY (Clave pública del usuario de EmailJS)
